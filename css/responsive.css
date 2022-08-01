@@ -2,113 +2,10 @@
 
 /* 'lg' applies to medium devices (tablets, less than 992px) */
 @media (max-width: 992px) {
-  .service-list {
-    flex-wrap: wrap;
-  }
-
-  .category-item .single-product .single-article {
-    width: 48.5%;
-  }
-
-  .product-list,
-  .article-list,
-  .category-item {
-    gap: 0;
-    row-gap: 24px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  footer .container {
-    flex-wrap: wrap;
-    gap: 20px;
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 /* 'md' applies to small device (landscape phones, loess then 768px) */
 @media (max-width: 768px) {
-  /* header .container {
-      flex-direction: column;
-      gap: 20px;
-    }
-  
-    .banner-content {
-      align-items: center;
-      flex-direction: column;
-      text-align: center;
-      max-width: 100%;
-    }
-  
-    .service-list {
-      padding: 24px;
-      flex-direction: column;
-    }
-  
-    .service-item {
-      border-right: 0;
-      justify-content: flex-start;
-    } */
-
-  header .container {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .banner-content {
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    max-width: 100%;
-  }
-
-  .service-item:nth-child(even) {
-    border-right: none;
-  }
-
-  .category-list {
-    flex-wrap: wrap;
-  }
-
-  .category-item {
-    width: 46%;
-    flex-grow: 1;
-  }
-
-  .product-list {
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-
-  .single-product {
-    width: 46%;
-    flex-grow: 1;
-  }
-
-  .summer-sale h2 {
-    font-size: 50px;
-  }
-
-  .article-list {
-    flex-wrap: wrap;
-    row-gap: 20px;
-  }
-
-  .single-article {
-    width: 46%;
-  }
-
-  .footer-area {
-    flex-wrap: wrap;
-    flex-direction: column;
-    column-gap: 20px;
-    row-gap: 5px;
-  }
-
-  .footer-area p {
-    margin-top: 10px;
-  }
 }
 
 /* Tablet responsive end */
@@ -116,43 +13,6 @@
 /* mobile responsive start */
 /* sm applies to x-small devices (portrait phones, less than 576px)  */
 @media (max-width: 576px) {
-  header nav {
-    display: none;
-  }
-
-  .banner-content h1 {
-    font-size: 40px;
-    text-align: center;
-  }
-
-  .banner-area {
-    background-image: cover;
-  }
-
-  .service-item {
-    border-right: none;
-  }
-
-  .category-item .single-product .single-article {
-    width: 100%;
-  }
-
-  .footer-area {
-    flex-wrap: wrap;
-    flex-direction: column;
-    column-gap: 20px;
-  }
-
-  /*
-    header nav {
-      display: none;
-    }
-  
-    .footer-area {
-      flex-wrap: wrap;
-      flex-direction: column;
-      column-gap: 20px;
-    }*/
 }
 /* mobile responsive end */
 /* responsive css end */
