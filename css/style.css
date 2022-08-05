@@ -4,6 +4,7 @@
   --color-blue-800: #1849a9;
 
   --color-grey-100: #f2f4f7;
+  --color-grey-200: #e4e7ec;
   --color-grey-300: #d0d5dd;
   --color-grey-400: #98a2b3;
   --color-grey-500: #667085;
@@ -104,6 +105,16 @@ input::placeholder {
   font-size: 14px;
   font-weight: 400;
   padding: 12px 25px;
+  border-radius: 2px;
+}
+
+.btn-sm {
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 6px 15px;
   border-radius: 2px;
 }
 
@@ -294,3 +305,45 @@ input::placeholder {
 }
 
 /* ==== Banner area end ===== */
+
+/* ===== Discount product start =====  */
+.discount-product-area {
+  padding: 90px 0;
+  width: 100%;
+}
+
+.discount-products {
+}
+
+.single-discount-product {
+  width: 32%;
+  background-color: var(--color-grey-200);
+  padding: 33px;
+}
+
+.discount-left-contents h3 {
+  width: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--color-grey-600);
+}
+
+.discount-left-contents h2 {
+  width: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: var(--color-blue-500);
+}
+
+.discount-left-contents > h2 .discount {
+  width: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--color-blue-500);
+}
+
+.discount-left-contents > button {
+  margin-top: 15px;
+}
+
+/* ===== Discount product End =====  */
