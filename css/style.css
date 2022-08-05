@@ -288,4 +288,9 @@ input::placeholder {
   color: var(--color-blue-800);
 }
 
+.banner-content img {
+  max-width: 600px;
+  width: 100%;
+}
+
 /* ==== Banner area end ===== */
