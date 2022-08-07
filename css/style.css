@@ -178,10 +178,12 @@ input::placeholder {
 /* ===== Header mid ===== */
 .header-mid {
   padding: 5px 0;
+  gap: 15px;
 }
 
 .header-mid > .logo {
   max-width: 140px;
+  flex-shrink: 0;
 }
 
 .header-mid > .logo > img {

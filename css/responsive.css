@@ -3,7 +3,7 @@
 /* 'lg' applies to medium devices (tablets, less than 992px) */
 @media (max-width: 992px) {
   .banner-content .left-content h2 {
-    font-size: 60px;
+    font-size: 70px;
   }
 
   .banner-content img {
@@ -14,9 +14,11 @@
 
 /* 'md' applies to small device (landscape phones, loess then 768px) */
 @media (max-width: 768px) {
-  .header-top-content,
-  .header-mid,
-  .navigation {
+  .banner-content .left-content h2 {
+    font-size: 80px;
+  }
+
+  .header-top-content {
     display: flex;
     flex-direction: column;
   }
@@ -25,6 +27,15 @@
   .icon-buttons,
   .navigation-right {
     margin-top: 10px;
+  }
+
+  .search-box,
+  .navigation-right {
+    display: none;
+  }
+
+  .navigation-left {
+    margin: auto;
   }
 
   .banner-content {
@@ -42,32 +53,23 @@
   }
 
   .banner-content img {
-    visibility: hidden;
+    display: none;
   }
 }
-
-/* Tablet responsive end */
 
 /* mobile responsive start */
 /* sm applies to x-small devices (portrait phones, less than 576px)  */
 @media (max-width: 576px) {
-  .discount-alert p {
-    line-height: 2;
+  .discount-alert,
+  .header-top-content {
+    display: none;
   }
 
-  .header-top-nav {
-    visibility: hidden;
-    margin: -10px;
+  .header-mid .icon-buttons {
+    margin-top: -10px;
   }
 
   .navigation {
-    visibility: hidden;
-    margin: -30px;
-  }
-
-  .banner-content .left-content h2 {
-    font-size: 60px;
+    display: none;
   }
 }
-/* mobile responsive end */
-/* responsive css end */
