@@ -903,6 +903,11 @@ input::placeholder {
   font-size: 14px;
   line-height: 20px;
   color: var(--color-grey-800);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 
 .featured-product-shortcut-reviews {
