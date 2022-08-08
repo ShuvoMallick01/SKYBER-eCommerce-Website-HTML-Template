@@ -59,7 +59,9 @@
   .single-discount-product,
   .single-featured-product,
   .new-arrivals-product,
-  .browse-categorie {
+  .browse-categorie,
+  .support,
+  .single-latest-news {
     width: 48%;
   }
 }
@@ -83,7 +85,9 @@
   .single-discount-product,
   .single-featured-product,
   .new-arrivals-product,
-  .browse-categorie {
+  .browse-categorie,
+  .support,
+  .single-latest-news {
     width: 100%;
   }
 }
