@@ -56,13 +56,22 @@
     display: none;
   }
 
+  .shortcut-categories {
+    flex-wrap: wrap;
+  }
+
   .single-discount-product,
   .single-featured-product,
   .new-arrivals-product,
   .browse-categorie,
   .support,
-  .single-latest-news {
+  .single-latest-news,
+  .featured-products-shortcut {
     width: 48%;
+  }
+
+  .featured-products-shortcut {
+    margin-bottom: 50px;
   }
 }
 
@@ -82,12 +91,21 @@
     display: none;
   }
 
+  .shortcut-categories {
+    flex-wrap: wrap;
+  }
+
   .single-discount-product,
   .single-featured-product,
   .new-arrivals-product,
   .browse-categorie,
   .support,
-  .single-latest-news {
+  .single-latest-news,
+  .featured-products-shortcut {
     width: 100%;
+  }
+
+  .featured-products-shortcut {
+    margin-bottom: 50px;
   }
 }
