@@ -129,6 +129,12 @@ input::placeholder {
   color: var(--color-grey-800);
   transition: all 300ms ease-in-out;
 }
+
+.heading {
+  font-weight: 500;
+  font-size: 22px;
+  color: var(--color-grey-600);
+}
 /* ===== Utilities Class End ===== */
 
 /* ===== Discount alert start ===== */
@@ -383,9 +389,6 @@ input::placeholder {
 
 /* ===== Featured product start =====  */
 .featured-product-heading {
-  font-weight: 500;
-  font-size: 22px;
-  color: var(--color-grey-600);
   margin-bottom: 50px;
 }
 
@@ -499,16 +502,13 @@ input::placeholder {
 
 /* ===== New Arrivals product start =====  */
 .new-arrivals-product-heading {
-  font-weight: 500;
-  font-size: 22px;
-  color: var(--color-grey-600);
   margin-bottom: 50px;
 }
 
 .new-arrivals-products {
   width: 100%;
   margin-bottom: 100px;
-  gap: 15px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
@@ -612,3 +612,94 @@ input::placeholder {
   margin-top: 15px;
 }
 /* ===== New Arrivals product end =====  */
+
+/* ===== Special Offer start ===== */
+.special-offer {
+  background-image: url("../images/Special-offer-bg.png");
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px 50px;
+  margin-bottom: 100px;
+}
+
+.special-offer-left {
+  gap: 15px;
+}
+
+.special-offer-left img {
+  max-width: 89px;
+  width: 100%;
+}
+
+.special-offer-left h3 {
+  color: var(--color-grey-900);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.special-offer-left h3 small {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--color-grey-800);
+}
+
+/* ===== Special Offer end ===== */
+
+/* ===== Browse Caegories start ===== */
+.browse-categories-heading {
+  margin-bottom: 50px;
+}
+
+.browse-categories {
+  width: 100%;
+  margin-bottom: 100px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.browse-categorie {
+  width: 23%;
+  flex-wrap: wrap;
+}
+
+.browse-categorie-img {
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 0;
+  background-color: var(--color-grey-100);
+}
+
+.browse-categorie-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.browse-categorie-content {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.browse-categorie-content p {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: var(--color-grey-400);
+}
+
+.browse-categorie-content h4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-grey-500);
+}
+
+/* ===== Browse Caegories end ===== */

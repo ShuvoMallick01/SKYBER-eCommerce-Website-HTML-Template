@@ -58,7 +58,8 @@
 
   .single-discount-product,
   .single-featured-product,
-  .new-arrivals-product {
+  .new-arrivals-product,
+  .browse-categorie {
     width: 48%;
   }
 }
@@ -81,7 +82,8 @@
 
   .single-discount-product,
   .single-featured-product,
-  .new-arrivals-product {
+  .new-arrivals-product,
+  .browse-categorie {
     width: 100%;
   }
 }
