@@ -55,6 +55,12 @@
   .banner-content img {
     display: none;
   }
+
+  .single-discount-product,
+  .single-featured-product,
+  .new-arrivals-product {
+    width: 48%;
+  }
 }
 
 /* mobile responsive start */
@@ -71,5 +77,11 @@
 
   .navigation {
     display: none;
+  }
+
+  .single-discount-product,
+  .single-featured-product,
+  .new-arrivals-product {
+    width: 100%;
   }
 }
