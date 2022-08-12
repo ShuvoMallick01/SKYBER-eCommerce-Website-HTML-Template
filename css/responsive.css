@@ -10,6 +10,17 @@
     max-width: 400px;
     width: 100%;
   }
+
+  .single-discount-product {
+  }
+
+  .single-discount-product,
+  .single-product,
+  .browse-categorie,
+  .single-latest-news,
+  .category-list {
+    width: 48%;
+  }
 }
 
 /* 'md' applies to small device (landscape phones, loess then 768px) */
@@ -61,16 +72,18 @@
   }
 
   .single-discount-product,
-  .single-featured-product,
-  .new-arrivals-product,
+  .support {
+    width: 100%;
+  }
+
+  .single-product,
   .browse-categorie,
-  .support,
   .single-latest-news,
-  .featured-products-shortcut {
+  .category-list {
     width: 48%;
   }
 
-  .featured-products-shortcut {
+  .category-list {
     margin-bottom: 50px;
   }
 }
@@ -96,16 +109,15 @@
   }
 
   .single-discount-product,
-  .single-featured-product,
-  .new-arrivals-product,
+  .single-product,
   .browse-categorie,
   .support,
   .single-latest-news,
-  .featured-products-shortcut {
+  .category-list {
     width: 100%;
   }
 
-  .featured-products-shortcut {
+  .category-list {
     margin-bottom: 50px;
   }
 }
