@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/helping.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/login-register.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <title>e-Commerce Website</title>
+  </head>
+  <body>
+    <!-- Login Form Start -->
+    <section class="login-area">
+      <div class="container">
+        <div class="login d-flex justify-content-between">
+          <!-- Form Start -->
+          <div class="login-form">
+            <h2 class="login-heading mb-5">Login</h2>
+            <form>
+              <div class="form-level">
+                <label class="login-label" for="username"
+                  >Username or email address <span>*</span></label
+                ><br />
+                <input
+                  class="login-field"
+                  type="text"
+                  name="uname"
+                  required
+                /><br />
+              </div>
+
+              <div class="form-level">
+                <label class="login-label" for="password"
+                  >Password <span>*</span></label
+                ><br />
+                <input type="password" name="password" required /><br />
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <label class="login-label">
+                  <input type="checkbox" checked="checked" name="remember" />
+                  Remember me
+                </label>
+                <p class="login-label">Forget Password?</p>
+              </div>
+              <button type="submit">Login</button>
+            </form>
+          </div>
+
+          <!-- Right Image -->
+          <div class="right-img">
+            <img src="/images/login-1.png" alt="Artwork" />
+          </div>
+          <!-- End -->
+        </div>
+      </div>
+    </section>
+    <!-- End -->
+  </body>
+</html>
