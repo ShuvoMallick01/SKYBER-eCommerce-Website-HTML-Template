@@ -120,12 +120,21 @@
     width: 100%;
   }
 
+  .single-footer-column {
+    text-align: center;
+  }
+
   .category-list {
     margin-bottom: 50px;
   }
 
   .footer-bottom {
     flex-wrap: wrap;
+  }
+
+  .popular-tag ul li,
+  .btn-subscribe {
+    margin: auto;
   }
 
   .social-icons {
