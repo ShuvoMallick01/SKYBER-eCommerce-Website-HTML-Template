@@ -79,7 +79,8 @@
   .single-product,
   .browse-categorie,
   .single-latest-news,
-  .category-list {
+  .category-list,
+  .single-footer-column {
     width: 48%;
   }
 
@@ -113,11 +114,22 @@
   .browse-categorie,
   .support,
   .single-latest-news,
-  .category-list {
+  .category-list,
+  .single-footer-column,
+  .footer-bottom {
     width: 100%;
   }
 
   .category-list {
     margin-bottom: 50px;
+  }
+
+  .footer-bottom {
+    flex-wrap: wrap;
+  }
+
+  .social-icons {
+    margin: auto;
+    margin-top: 10px;
   }
 }

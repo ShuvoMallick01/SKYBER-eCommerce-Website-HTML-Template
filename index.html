@@ -24,6 +24,7 @@
     <!-- custom css -->
     <link rel="stylesheet" href="./css/helping.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
     <title>e-Commerce Website</title>
   </head>
@@ -1123,7 +1124,7 @@
       <div class="container">
         <div class="footer">
           <!-- Fotoer Top Start -->
-          <div class="footer-top d-flex justify-content-between">
+          <div class="footer-top d-flex mb-2 justify-content-between">
             <!-- single Contact Column -->
             <div class="contact-info single-footer-column">
               <h3 class="footer-heading">CONTACT INFO</h3>
@@ -1190,24 +1191,47 @@
             <div class="customer-service single-footer-column">
               <h3 class="footer-heading">SUBSCRIBE NEWSLETTER</h3>
               <div class="subscribe-contents">
-                <p>
+                <p class="mb-fifteen">
                   Get all the latest information on events, sales and offers.
                   Sign Up for newsletter.
                 </p>
+                <div class="subscribe-field d-flex">
+                  <input
+                    type="email"
+                    class="subscribe-email mb-1"
+                    placeholder="Email address"
+                  />
+                  <button
+                    type="button"
+                    class="btn-subscribe btn-subscribe-primary"
+                  >
+                    SUBSCRIBE
+                  </button>
+                </div>
               </div>
             </div>
             <!-- End -->
           </div>
+          <!-- Footer Top End -->
+
+          <hr class="mb-2 footer-line" />
 
           <!-- Fotoer Bottom Start -->
-          <div class="footer-bottom"></div>
-
+          <div
+            class="footer-bottom d-flex justify-content-between align-items-center"
+          >
+            <p>RIOART eCommerce. <span>2022. All Rights Reserved</span></p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
           <!-- End -->
         </div>
       </div>
     </section>
     <!-- Footer end -->
-
-    <!-- Bottom End -->
   </body>
 </html>

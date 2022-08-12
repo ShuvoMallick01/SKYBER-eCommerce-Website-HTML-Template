@@ -1,0 +1,25 @@
+/* Footer Bottom Start */
+.footer-bottom > p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--color-blue-500);
+}
+
+.footer-bottom > p span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--color-grey-600);
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  color: var(--color-grey-600);
+  padding: 0 10px;
+  font-size: 20px;
+}
+/* ===== Footer End ===== */

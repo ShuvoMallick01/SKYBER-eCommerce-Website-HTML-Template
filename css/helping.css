@@ -100,7 +100,6 @@ input::placeholder {
 }
 
 /* ===== Button Utilities ===== */
-
 .btn {
   border: 0;
   outline: 0;
@@ -176,6 +175,7 @@ ul li {
   width: 100%;
   overflow: hidden;
   padding-bottom: 0;
+  cursor: pointer;
 }
 
 .product-img img {
@@ -291,6 +291,10 @@ ul li {
   height: 79px;
   overflow: hidden;
   background-color: red;
+}
+
+.product-sortcut-img {
+  cursor: pointer;
 }
 
 .product-shortcut-img img {
