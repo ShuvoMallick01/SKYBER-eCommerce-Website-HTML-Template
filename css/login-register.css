@@ -1,21 +1,4 @@
-/* Common login register Css */
-.login-heading {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 36px;
-  color: var(--color-grey-400);
-}
-
-.login-label {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: var(--color-grey-400);
-  margin-bottom: 100px;
-}
-/* Common login register Css End*/
-
-.login-form {
+.login {
   margin-top: 150px;
   width: 100%;
 }
@@ -24,7 +7,24 @@
   width: 40%;
 }
 
-.login-field {
+.login-heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--color-grey-400);
+}
+
+label,
+input {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--color-grey-400);
+  padding: 4px 0;
+}
+
+input {
   width: 100%;
   font-weight: 400;
   font-size: 12px;
@@ -35,15 +35,35 @@
   border: none;
   border: 1px solid var(--color-grey-300);
   padding: 10px 20px;
+  margin-top: 2px;
 }
 
-.btn-subscribe {
+.form-control {
+  margin: 30px 0;
+}
+
+.checkbox-control {
+  gap: 10px;
+  width: fit-content;
+}
+
+.forgot-password {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--color-grey-700);
+}
+
+.login-btn {
+  width: 100%;
   border: 0;
   outline: 0;
   cursor: pointer;
-  font-size: 14px;
-  font-weight: 400;
-  padding: 10px 15px;
-  border-radius: 25px;
-  width: 50%;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 15px 0;
+  background-color: var(--color-blue-500);
+  color: var(--color-grey-200);
+  margin-top: 20px;
 }
