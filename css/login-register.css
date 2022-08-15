@@ -1,6 +1,7 @@
 .login {
   margin-top: 150px;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .login-form {
@@ -66,4 +67,8 @@ input {
   background-color: var(--color-blue-500);
   color: var(--color-grey-200);
   margin-top: 20px;
+}
+
+span {
+  color: red;
 }

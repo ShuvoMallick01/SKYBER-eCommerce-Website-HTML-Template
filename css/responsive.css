@@ -68,8 +68,18 @@
     flex-wrap: wrap;
   }
 
+  .right-img {
+    display: none;
+  }
+
+  .login-form {
+    margin-bottom: 100px;
+    padding: 0 50px;
+  }
+
   .single-discount-product,
-  .support {
+  .support,
+  .login-form {
     width: 100%;
   }
 
@@ -113,7 +123,10 @@
   .single-latest-news,
   .products-list,
   .single-footer-column,
-  .footer-bottom {
+  .footer-bottom,
+  .login-form,
+  .right-productpage-details,
+  .left-productpage-gellery {
     width: 100%;
   }
 
@@ -125,6 +138,17 @@
     margin-bottom: 50px;
   }
 
+  .productpage-details {
+    gap: 50px;
+  }
+
+  /* Login Form start */
+  .login-form {
+    margin-bottom: 100px;
+    padding: 0;
+  }
+
+  /* Footer Start */
   .footer-bottom {
     flex-wrap: wrap;
   }

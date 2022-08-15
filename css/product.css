@@ -165,3 +165,143 @@
   color: var(--color-grey-800);
 }
 /* ===== Product List view css end ===== */
+
+/* Product page product view css start */
+.productpage-directory {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--color-grey-400);
+}
+
+.productpage-details {
+  width: 100%;
+}
+
+.left-productpage-gellery {
+  width: 48%;
+  position: relative;
+}
+
+.productpage-gellery {
+  width: 100%;
+  height: 590px;
+  overflow: hidden;
+  padding-bottom: 0;
+  cursor: pointer;
+}
+
+.productpage-gellery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.productpage-bottom-gellery {
+  width: 100%;
+}
+
+.productpage-bottom-gellery img {
+  width: 30%;
+}
+
+.productpage-discount-badges {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  z-index: 1;
+  color: var(--color-grey-200);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.productpage-discount-badges p {
+  border-radius: 10px;
+}
+
+.productpage-discount-badges p:first-child {
+  background-color: var(--color-success);
+  padding: 2px 17px;
+}
+
+.productpage-discount-badges p:last-child {
+  background-color: var(--color-danger);
+  padding: 2px 12px;
+}
+
+/* Product details*/
+.productpage-details {
+  flex-wrap: wrap;
+}
+
+.right-productpage-details {
+  padding: 0 25px;
+  width: 52%;
+}
+
+.productpage-heading {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 35px;
+  color: var(--color-grey-600);
+}
+
+.productpage-reviews {
+  gap: 2px;
+}
+
+.productpage-reviews i {
+  line-height: 200px;
+  font-size: 15px;
+  color: var(--color-danger);
+  line-height: 2;
+}
+
+.productpage-old-price {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  color: var(--color-grey-400);
+  text-decoration-line: line-through;
+}
+
+.productpage-new-price {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: var(--color-grey-700);
+}
+
+.productpage-price {
+  gap: 5px;
+}
+
+.productpage-description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--color-grey-400);
+}
+
+.productpage-three-types {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--color-grey-500);
+}
+
+.productpage-sku span,
+.productpage-category span,
+.productage-tags span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-grey-700);
+}
+
+.btn-productpage i {
+  padding-right: 10px;
+}
+/* Product page product view css end */
