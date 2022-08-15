@@ -11,14 +11,11 @@
     width: 100%;
   }
 
-  .single-discount-product {
-  }
-
   .single-discount-product,
   .single-product,
   .browse-categorie,
   .single-latest-news,
-  .category-list {
+  .products-list {
     width: 48%;
   }
 }
@@ -79,12 +76,12 @@
   .single-product,
   .browse-categorie,
   .single-latest-news,
-  .category-list,
+  .products-list,
   .single-footer-column {
     width: 48%;
   }
 
-  .category-list {
+  .products-list {
     margin-bottom: 50px;
   }
 }
@@ -114,7 +111,7 @@
   .browse-categorie,
   .support,
   .single-latest-news,
-  .category-list,
+  .products-list,
   .single-footer-column,
   .footer-bottom {
     width: 100%;
@@ -124,7 +121,7 @@
     text-align: center;
   }
 
-  .category-list {
+  .products-list {
     margin-bottom: 50px;
   }
 
