@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="./css/helping.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/product.css" />
+    <link rel="stylesheet" href="./css/shopping-cart.css" />
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
     <title>e-Commerce Website</title>
@@ -102,7 +103,7 @@
               <li><a href="#">Products</a></li>
               <li><a href="#">Pages</a></li>
               <li><a href="#">Blogs</a></li>
-              <li><a href="#">Elements</a></li>
+              <li><a href="./register.html">Sign Up</a></li>
               <li><a href="#">Contact Us</a></li>
             </ul>
           </nav>
@@ -175,13 +176,27 @@
                 Category : <span>Shoes</span>
               </p>
               <p class="productage-tags mb-1">
-                Tags : <span>Clothes,Sweater</span>
+                Tags : <span>Clothes, Sweater</span>
               </p>
             </div>
 
-            <button class="btn-productpage btn-productpage-primary">
-              <i class="fa-solid fa-bag-shopping"></i> ADD TO CART
-            </button>
+            <!-- Product Add to Cart Button area -->
+            <div class="product-add-to-cart d-flex align-items-center">
+              <!-- Product Quantity -->
+              <div class="product-quantity-wrap d-flex">
+                <button type="button" class="product-quantity-input-minus">
+                  -
+                </button>
+                <input type="text" class="product-quantity-input" value="1" />
+                <button type="button" class="product-quantity-input-plus">
+                  +
+                </button>
+              </div>
+
+              <button class="btn-productpage btn-productpage-primary">
+                <i class="fa-solid fa-bag-shopping"></i> ADD TO CART
+              </button>
+            </div>
           </div>
         </div>
       </div>

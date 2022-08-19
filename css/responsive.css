@@ -94,6 +94,13 @@
   .products-list {
     margin-bottom: 50px;
   }
+
+  /* ===== Single product page ===== */
+  .product-add-to-cart {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 /* mobile responsive start */
@@ -138,17 +145,18 @@
     margin-bottom: 50px;
   }
 
+  /* === Single Product Page === */
   .productpage-details {
     gap: 50px;
   }
 
-  /* Login Form start */
+  /* === Login Form start === */
   .login-form {
     margin-bottom: 100px;
     padding: 0;
   }
 
-  /* Footer Start */
+  /* === Footer Start === */
   .footer-bottom {
     flex-wrap: wrap;
   }

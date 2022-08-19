@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="./css/helping.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/product.css" />
+    <link rel="stylesheet" href="./css/shopping-cart.css" />
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
     <title>e-Commerce Website</title>
@@ -99,10 +100,10 @@
             <ul class="d-flex align-items-center">
               <li><a href="./index.html">Home</a></li>
               <li><a href="#">Categories</a></li>
-              <li><a href="#">Products</a></li>
+              <li><a href="./product.html">Products</a></li>
               <li><a href="#">Pages</a></li>
               <li><a href="#">Blogs</a></li>
-              <li><a href="#">Elements</a></li>
+              <li><a href="./register.html">Sign Up</a></li>
               <li><a href="#">Contact Us</a></li>
             </ul>
           </nav>
@@ -116,13 +117,67 @@
     </header>
     <!-- Header area end -->
 
-    <!-- Single Product Details start -->
+    <!-- Shopping Cart start -->
     <section class="single-product-details-area">
       <div class="container">
+        <!-- Directory -->
         <p class="productpage-directory mb-5">Home > Shopping Cart</p>
+
+        <!-- Shopping cart Table -->
+        <div class="shopping-cart-table">
+          <!-- Left Side Shopping-cart-product list -->
+          <div class="shopping-cart-products-list">
+            <!-- Header -->
+            <div class="shopping-products-list-head">
+              <div></div>
+              <div>PRODUCTS</div>
+              <div>PRICE</div>
+              <div>QUANTITY</div>
+              <div>SUBTOTAL</div>
+            </div>
+
+            <!-- Product Item List -->
+            <div class="shopping-cart-item-list">
+              <div class="shopping-cart-item">
+                <div class="">
+                  <a href=""><img src="./images/user.svg" alt="User Icon" /></a>
+                </div>
+
+                <div class="">
+                  <p>Men Watch</p>
+                </div>
+
+                <div class="">
+                  <p>$17.90</p>
+                </div>
+
+                <div class="">
+                  <div class="product-quantity-wrap d-flex">
+                    <button type="button" class="product-quantity-input-minus">
+                      -
+                    </button>
+                    <input
+                      type="text"
+                      class="product-quantity-input"
+                      value="1"
+                    />
+                    <button type="button" class="product-quantity-input-plus">
+                      +
+                    </button>
+                  </div>
+                </div>
+
+                <div class="">
+                  <p>$17.90</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shopping-cart-totals"></div>
+        </div>
       </div>
     </section>
-    <!-- Single Product Details end -->
+    <!-- Shopping Cart end -->
 
     <!-- Footer start -->
     <section class="footer-area">
