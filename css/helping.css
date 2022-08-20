@@ -66,6 +66,10 @@ hr {
   border-top: 1px solid var(--color-grey-100);
 }
 
+.line-cart {
+  border-top: 1px solid var(--color-grey-300);
+}
+
 input,
 button {
   font-family: var(--font-primary);
@@ -179,6 +183,10 @@ ul li {
   margin-bottom: 30px;
 }
 
+.mb-4 {
+  margin-bottom: 30px;
+}
+
 .mb-5 {
   margin-bottom: 50px;
 }
@@ -193,5 +201,9 @@ ul li {
 
 .mb-12 {
   margin-bottom: 120px;
+}
+
+.mt-10 {
+  margin-top: 100px;
 }
 /* ===== Utilities Class End ===== */

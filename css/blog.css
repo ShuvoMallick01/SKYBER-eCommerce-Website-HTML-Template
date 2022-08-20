@@ -1,0 +1,59 @@
+.blog-area {
+  width: 100%;
+}
+
+.left-side-blog {
+  width: 75%;
+}
+
+.latest-blog {
+  flex-wrap: wrap;
+  gap: 20px;
+  row-gap: 30px;
+}
+
+.single-latest-news {
+  width: 31%;
+}
+
+/* Right Side Start */
+.right-side-blog {
+  width: 22%;
+}
+
+.right-side-blog h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--color-grey-500);
+}
+
+.blog-categories ul li {
+  padding: 12px 0;
+}
+
+.blog-categories ul li a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--color-grey-400);
+}
+
+/* Receipt Blog Post */
+.blog-recent-post-area {
+  width: 100%;
+}
+
+.category-single-recet-post {
+  gap: 15px;
+}
+
+.single-recent-post-img {
+  width: 70px;
+  height: 47px;
+}
+
+.single-recent-post-img img {
+  width: 100%;
+  height: 100%;
+}
