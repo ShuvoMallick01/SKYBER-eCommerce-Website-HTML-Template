@@ -124,35 +124,56 @@
         <p class="productpage-directory mb-5">Home > Shopping Cart</p>
 
         <!-- Shopping cart Table -->
-        <div class="shopping-cart-table">
+        <div class="shopping-cart-table mb-10 d-flex justify-content-between">
           <!-- Left Side Shopping-cart-product list -->
           <div class="shopping-cart-products-list">
             <!-- Header -->
-            <div class="shopping-products-list-head">
-              <div></div>
-              <div>PRODUCTS</div>
-              <div>PRICE</div>
-              <div>QUANTITY</div>
-              <div>SUBTOTAL</div>
+            <div class="shopping-products-list-head d-flex align-items-center">
+              <div class="single-head-title"></div>
+              <div class="single-head-title single-head-title-products">
+                PRODUCTS
+              </div>
+              <div class="single-head-title">PRICE</div>
+              <div class="single-head-title">QUANTITY</div>
+              <div class="single-head-title">SUBTOTAL</div>
             </div>
+            <hr class="single-head-title-products-line" />
 
             <!-- Product Item List -->
             <div class="shopping-cart-item-list">
-              <div class="shopping-cart-item">
-                <div class="">
-                  <a href=""><img src="./images/user.svg" alt="User Icon" /></a>
+              <!-- Single shopping-cart-item -->
+              <div class="shopping-cart-item d-flex align-items-center">
+                <div
+                  class="single-shopping-cart-item single-shopping-cart-item-image"
+                >
+                  <a href=""
+                    ><img
+                      src="./images/products/shopping-cart-item-01.png"
+                      class="single-shopping-cart-item-only-image"
+                      alt="User Icon"
+                  /></a>
+                </div>
+                <!-- Delete Product Badge -->
+                <div class="single-shopping-cart-product-delete-badge">
+                  <p class="">X</p>
                 </div>
 
-                <div class="">
+                <div
+                  class="single-shopping-cart-item single-shopping-cart-item-name"
+                >
                   <p>Men Watch</p>
                 </div>
 
-                <div class="">
+                <div class="single-shopping-cart-item">
                   <p>$17.90</p>
                 </div>
 
-                <div class="">
-                  <div class="product-quantity-wrap d-flex">
+                <div
+                  class="single-shopping-cart-item single-shopping-cart-item-quantity"
+                >
+                  <div
+                    class="product-quantity-wrap d-flex justify-content-center"
+                  >
                     <button type="button" class="product-quantity-input-minus">
                       -
                     </button>
@@ -167,13 +188,132 @@
                   </div>
                 </div>
 
-                <div class="">
+                <div
+                  class="single-shopping-cart-item single-shopping-cart-item-subtotal"
+                >
                   <p>$17.90</p>
                 </div>
               </div>
+
+              <!-- Single shopping-cart-item -->
+              <div class="shopping-cart-item d-flex align-items-center">
+                <div
+                  class="single-shopping-cart-item single-shopping-cart-item-image"
+                >
+                  <a href=""
+                    ><img
+                      src="./images/products/shopping-cart-item-01.png"
+                      class="single-shopping-cart-item-only-image"
+                      alt="User Icon"
+                  /></a>
+                </div>
+                <!-- Delete Product Badge -->
+                <div class="single-shopping-cart-product-delete-badge">
+                  <p class="">X</p>
+                </div>
+
+                <div
+                  class="single-shopping-cart-item single-shopping-cart-item-name"
+                >
+                  <p>Men Watch</p>
+                </div>
+
+                <div class="single-shopping-cart-item">
+                  <p>$17.90</p>
+                </div>
+
+                <div
+                  class="single-shopping-cart-item single-shopping-cart-item-quantity"
+                >
+                  <div
+                    class="product-quantity-wrap d-flex justify-content-center"
+                  >
+                    <button type="button" class="product-quantity-input-minus">
+                      -
+                    </button>
+                    <input
+                      type="text"
+                      class="product-quantity-input"
+                      value="1"
+                    />
+                    <button type="button" class="product-quantity-input-plus">
+                      +
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="single-shopping-cart-item single-shopping-cart-item-subtotal"
+                >
+                  <p>$17.90</p>
+                </div>
+              </div>
+
+              <!-- Single shopping-cart-item -->
+              <div class="shopping-cart-item d-flex align-items-center">
+                <div
+                  class="single-shopping-cart-item single-shopping-cart-item-image"
+                >
+                  <a href=""
+                    ><img
+                      src="./images/products/shopping-cart-item-01.png"
+                      class="single-shopping-cart-item-only-image"
+                      alt="User Icon"
+                  /></a>
+                </div>
+                <!-- Delete Product Badge -->
+                <div class="single-shopping-cart-product-delete-badge">
+                  <p class="">X</p>
+                </div>
+
+                <div
+                  class="single-shopping-cart-item single-shopping-cart-item-name"
+                >
+                  <p>Men Watch</p>
+                </div>
+
+                <div class="single-shopping-cart-item">
+                  <p>$17.90</p>
+                </div>
+
+                <div
+                  class="single-shopping-cart-item single-shopping-cart-item-quantity"
+                >
+                  <div
+                    class="product-quantity-wrap d-flex justify-content-center"
+                  >
+                    <button type="button" class="product-quantity-input-minus">
+                      -
+                    </button>
+                    <input
+                      type="text"
+                      class="product-quantity-input"
+                      value="1"
+                    />
+                    <button type="button" class="product-quantity-input-plus">
+                      +
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  class="single-shopping-cart-item single-shopping-cart-item-subtotal"
+                >
+                  <p>$17.90</p>
+                </div>
+              </div>
+              <!-- End -->
             </div>
           </div>
-          <div class="shopping-cart-totals"></div>
+
+          <!-- Right Side Shopping Cart Table Form -->
+          <div class="shopping-cart-totals">
+            <div class="shopping-cart-subtotal">
+              <p>Subtotal</p>
+              <p>$17.90</p>
+            </div>
+            <hr />
+          </div>
         </div>
       </div>
     </section>
