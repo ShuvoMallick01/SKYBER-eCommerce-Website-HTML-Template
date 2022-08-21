@@ -75,6 +75,7 @@
   .banner-content img {
     display: none;
   }
+  /* Banner area end */
 
   .shortcut-categories {
     flex-wrap: wrap;
@@ -94,6 +95,32 @@
   .login-form {
     width: 100%;
   }
+
+  /* Offer area start */
+  .special-offer,
+  .special-offer-top-fasion {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .special-offer-left,
+  .top-fasion-left {
+    width: 100%;
+    display: block;
+  }
+
+  .special-offer-left img,
+  .top-fasion-left img {
+    display: block;
+    margin: auto;
+  }
+
+  .special-offer-left h3,
+  .top-fasion-left h3 {
+    text-align: center;
+  }
+  /* Offer area end */
 
   .single-product,
   .browse-categorie,
