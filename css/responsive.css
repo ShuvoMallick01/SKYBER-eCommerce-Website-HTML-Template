@@ -18,6 +18,18 @@
   .products-list {
     width: 48%;
   }
+
+  /* === Shipping Cart page start=== */
+  .shopping-cart-products-list {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .shopping-cart-totals {
+    margin: auto;
+    width: 60%;
+  }
+  /* === Shipping Cart page end=== */
 }
 
 /* 'md' applies to small device (landscape phones, loess then 768px) */
@@ -95,12 +107,24 @@
     margin-bottom: 50px;
   }
 
-  /* ===== Single product page ===== */
+  /* === Single product page === */
   .product-add-to-cart {
     width: 100%;
     flex-direction: column;
     align-items: flex-start;
   }
+
+  /* === Shipping Cart page start=== */
+  .shopping-cart-products-list {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .shopping-cart-totals {
+    margin: auto;
+    width: 60%;
+  }
+  /* === Shipping Cart page end=== */
 }
 
 /* mobile responsive start */
@@ -155,6 +179,55 @@
     margin-bottom: 100px;
     padding: 0;
   }
+  /* === Login Form end === */
+
+  /* === Shipping Cart page start=== */
+  .productpage-directory {
+    margin-top: 50px;
+  }
+
+  .shopping-cart-products-list {
+    margin-bottom: 50px;
+  }
+
+  .shopping-cart-coupon {
+    margin: auto;
+  }
+
+  .single-head-title {
+    gap: 5px !important;
+    font-size: 15px !important;
+  }
+
+  .shopping-cart-item {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .single-cart-item-quantity,
+  .shopping-cart-head-price {
+    display: none;
+  }
+
+  .shopping-cart-updatecart-btn {
+    margin: auto;
+  }
+
+  .shopping-cart-totals {
+    margin: auto;
+    width: 100%;
+  }
+  /* === Shipping Cart page end=== */
+
+  /* === Blog Page Start === */
+  .left-side-blog {
+    width: 60%;
+  }
+
+  .right-side-blog {
+    width: 35%;
+  }
+  /* === Blog Page end === */
 
   /* === Footer Start === */
   .footer-bottom {
@@ -170,4 +243,5 @@
     margin: auto;
     margin-top: 10px;
   }
+  /* === Footer end === */
 }
