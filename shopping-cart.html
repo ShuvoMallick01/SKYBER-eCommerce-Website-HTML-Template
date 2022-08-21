@@ -140,7 +140,7 @@
             </div>
             <hr class="line-cart" />
 
-            <!-- Product Item List -->
+            <!-- Product Item List start-->
             <div class="shopping-cart-item-list">
               <!-- Single shopping-cart-item -->
               <div class="shopping-cart-item d-flex align-items-center">
@@ -278,6 +278,43 @@
               </div>
               <!-- End -->
             </div>
+            <!-- Product Item List End -->
+            <hr class="line-cart mt-2 mb-3" />
+
+            <!-- bottom coupon and update cart -->
+            <div
+              class="shopping-cart-coupon-updatecart d-flex justify-content-between align-items-center"
+            >
+              <div
+                class="shopping-cart-coupon d-flex justify-content-between align-items-center"
+              >
+                <input
+                  type="text"
+                  id="coupon-code"
+                  class="shopping-cart-coupon-input form-control placeholder-control"
+                  name="coupon-code"
+                  placeholder="Coupon Code"
+                />
+
+                <button
+                  type="button"
+                  class="btn-cart btn-secondary mb-2 input-control form-control"
+                >
+                  APPLY COUPON
+                </button>
+              </div>
+
+              <div class="shopping-cart-updatecart-btn">
+                <button
+                  type="button"
+                  class="btn-cart btn-secondary mb-2 form-control"
+                >
+                  UPDATE CART
+                </button>
+              </div>
+            </div>
+
+            <!-- End Left Side -->
           </div>
 
           <!-- Right Side Shopping Cart Form -->
@@ -355,27 +392,34 @@
                   /><br />
                 </div>
 
-                <input type="submit" value="UPDATE TOTALS" />
+                <input
+                  type="submit"
+                  class="btn-cart btn-secondary mb-2"
+                  value="UPDATE TOTALS"
+                />
               </form>
               <!-- Form End -->
             </div>
-            <hr class="line-cart mb-1" />
+            <hr class="line-cart mb-fifteen" />
 
             <div
-              class="shopping-cart-subtotal-bellow d-flex align-items-center justify-content-between"
+              class="shopping-cart-subtotal-bellow mb-3 d-flex align-items-center justify-content-between"
             >
               <p>Total</p>
               <p>$17.90</p>
             </div>
 
-            <button type="button">
+            <button
+              type="button"
+              class="shopping-cart-process-tocheckout-btn btn-cart btn-primary"
+            >
               Proceed to checkout <i class="fa-solid fa-arrow-right"></i>
             </button>
           </div>
           <!-- Right Side end -->
         </div>
+        <!-- Table End -->
       </div>
-      <!-- Shopping cart Table End -->
     </section>
     <!-- Shopping Cart end -->
 
