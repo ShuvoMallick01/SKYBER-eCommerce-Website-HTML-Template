@@ -294,58 +294,88 @@
 
             <div class="shopping-cart-shipping-address">
               <form class="shopping-cart-shipping-form">
-                <label class="form-label-heading" for="shipping-method"
-                  >Shipping
-                </label>
-                <div class="radio-button d-flex">
+                <label class="form-label-heading form-control">Shipping </label>
+                <div class="radio-button form-control">
                   <input
                     type="radio"
-                    class="d-flex"
                     id="local-pickup"
                     name="local-pickup"
                     value="local-pickup"
                   />
-                  <label for="html">Local pickup</label>
+                  <label for="html" class="label-control">Local pickup</label>
                 </div>
 
-                <input
-                  type="radio"
-                  id="flat rate"
-                  name="flat rate"
-                  value="flat rate"
-                />
-                <label for="css">flat rate</label>
+                <div class="radio-button form-control">
+                  <input
+                    type="radio"
+                    id="flat rate"
+                    name="flat rate"
+                    value="flat rate"
+                  />
+                  <label for="css" class="label-control">flat rate</label>
+                </div>
 
                 <div class="form-control">
                   <label class="login-label" for="password"
-                    >Shipping to NY.</label
+                    >Shipping to <b>NY.</b></label
                   >
-                  <select id="cars" name="cars">
-                    <option value="volvo">Volvo</option>
-                    <option value="saab">Saab</option>
-                    <option value="fiat">Fiat</option>
-                    <option value="audi">Audi</option>
+                  <select
+                    id="country"
+                    name="country"
+                    class="select-control form-control"
+                  >
+                    <option value="United State">United State</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Mexico">Mexico</option>
                   </select>
 
-                  <select id="cars" name="cars">
-                    <option value="volvo">Volvo</option>
-                    <option value="saab">Saab</option>
-                    <option value="fiat">Fiat</option>
-                    <option value="audi">Audi</option>
+                  <select
+                    id="city"
+                    name="city"
+                    class="select-control form-control"
+                  >
+                    <option value="New York">New York</option>
+                    <option value="New Jercy">New Jercy</option>
+                    <option value="New Mexico">New Mexico</option>
                   </select>
 
-                  <input type="text" id="fname" name="fname" /><br />
-                  <input type="text" id="fname" name="fname" /><br />
+                  <input
+                    type="text"
+                    id="fname"
+                    class="input-control form-control placeholder-control"
+                    name="fname"
+                    placeholder="Town/City"
+                  /><br />
+                  <input
+                    type="text"
+                    id="fname"
+                    class="input-control form-control placeholder-control"
+                    name="fname"
+                    placeholder="Zip"
+                  /><br />
                 </div>
 
-                <input type="submit" value="Submit" />
+                <input type="submit" value="UPDATE TOTALS" />
               </form>
-
-              <hr class="line-cart mb-1" />
+              <!-- Form End -->
             </div>
+            <hr class="line-cart mb-1" />
+
+            <div
+              class="shopping-cart-subtotal-bellow d-flex align-items-center justify-content-between"
+            >
+              <p>Total</p>
+              <p>$17.90</p>
+            </div>
+
+            <button type="button">
+              Proceed to checkout <i class="fa-solid fa-arrow-right"></i>
+            </button>
           </div>
+          <!-- Right Side end -->
         </div>
       </div>
+      <!-- Shopping cart Table End -->
     </section>
     <!-- Shopping Cart end -->
 
