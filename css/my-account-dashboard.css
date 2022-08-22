@@ -4,3 +4,40 @@
   font-size: 16px !important;
   color: var(--color-grey-600) !important;
 }
+
+.my-account-dashboard-greeting {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--color-grey-600);
+}
+
+.my-account-dashboard-description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--color-grey-500);
+}
+
+/* icons start */
+.my-account-dashboard-icons {
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 18px;
+  row-gap: 25px;
+}
+
+.my-account-dashboard-icon {
+  width: 31%;
+  border: 1px solid var(--color-grey-400);
+  align-items: center;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.my-account-dashboard-icon > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: var(--color-grey-500);
+}

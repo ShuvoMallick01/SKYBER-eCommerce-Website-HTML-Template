@@ -272,6 +272,12 @@
   }
   /* My Account End */
 
+  /* my account dashboard start */
+  .my-account-dashboard-icon {
+    width: 45%;
+  }
+  /* my account dashboard end */
+
   /* Footer Start */
   .footer-bottom {
     flex-wrap: wrap;
