@@ -1,5 +1,6 @@
 /* ======= Responsive Start =======*/
 
+/* ========== Tablets ========== */
 /* 'lg' applies to medium devices (tablets, less than 992px) */
 @media (max-width: 992px) {
   .banner-content .left-content h2 {
@@ -29,9 +30,10 @@
     margin: auto;
     width: 60%;
   }
-  /* === Shipping Cart page end=== */
+  /* Shipping Cart page end */
 }
 
+/* ========== landscape Phone ========== */
 /* 'md' applies to small device (landscape phones, loess then 768px) */
 @media (max-width: 768px) {
   .banner-content .left-content h2 {
@@ -151,10 +153,17 @@
     margin: auto;
     width: 60%;
   }
-  /* === Shipping Cart page end=== */
+  /* Shipping Cart page end */
+
+  /* My Account Start */
+  .my-account-left-vertical-menu,
+  .my-account-right-details {
+    width: 100%;
+  }
+  /* My Account End */
 }
 
-/* mobile responsive start */
+/* ========== Mobile responsive start ==========*/
 /* sm applies to x-small devices (portrait phones, less than 576px)  */
 @media (max-width: 576px) {
   .discount-alert,
@@ -206,9 +215,9 @@
     margin-bottom: 100px;
     padding: 0;
   }
-  /* === Login Form end === */
+  /* Login Form end  */
 
-  /* === Shipping Cart page start=== */
+  /* Shipping Cart page start */
   .productpage-directory {
     margin-top: 50px;
   }
@@ -244,9 +253,9 @@
     margin: auto;
     width: 100%;
   }
-  /* === Shipping Cart page end=== */
+  /* Shipping Cart page end */
 
-  /* === Blog Page Start === */
+  /* Blog Page Start */
   .left-side-blog {
     width: 60%;
   }
@@ -254,9 +263,16 @@
   .right-side-blog {
     width: 35%;
   }
-  /* === Blog Page end === */
+  /* Blog Page end  */
 
-  /* === Footer Start === */
+  /* My Account Start */
+  .my-account-left-vertical-menu,
+  .my-account-right-details {
+    width: 100%;
+  }
+  /* My Account End */
+
+  /* Footer Start */
   .footer-bottom {
     flex-wrap: wrap;
   }
@@ -270,5 +286,5 @@
     margin: auto;
     margin-top: 10px;
   }
-  /* === Footer end === */
+  /* Footer end */
 }
