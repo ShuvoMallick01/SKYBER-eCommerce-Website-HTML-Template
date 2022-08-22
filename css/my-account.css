@@ -35,6 +35,12 @@
   color: var(--color-grey-600);
 }
 
+.my-account-details-menu-active a {
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  color: var(--color-grey-600) !important;
+}
+
 /* Right Side Form css start */
 .my-account-details {
   font-weight: 500;
