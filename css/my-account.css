@@ -1,3 +1,4 @@
+/* ===== My Account - Account Details Tab Start ===== */
 .my-account {
   width: 100%;
   flex-wrap: wrap;
@@ -10,18 +11,17 @@
 
 .my-account-right-details {
   width: 66%;
-  /* background-color: yellow; */
 }
 
 /* Left Nav start */
 .my-account-left-nav ul li {
-  padding-top: 20px;
-  padding-bottom: 8px;
   border-bottom: 1px solid var(--color-grey-400);
   cursor: pointer;
 }
 
 .my-account-left-nav ul li a {
+  display: block;
+  padding: 15px 5px;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -30,15 +30,18 @@
 
 .my-account-left-nav ul li a:hover {
   font-weight: 600;
+  padding: 15px 5px;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 26px;
   color: var(--color-grey-600);
+  background-color: var(--color-grey-100);
 }
 
 .my-account-details-menu-active a {
   font-weight: 600 !important;
   font-size: 16px !important;
   color: var(--color-grey-600) !important;
+  background-color: var(--color-grey-100);
 }
 
 /* Right Side Form css start */
@@ -58,10 +61,107 @@
 
 .margin-control {
   margin: 25px 0 !important;
-  /* padding-bottom: 25px !important; */
 }
 
 .my-account-password-area {
   border: 1px solid var(--color-grey-300);
   padding: 15px;
+}
+/* ===== My Account - Account Details Tab End ===== */
+
+/* ===== My Account - Dashboard Tab Start ===== */
+/* Left Nav start */
+.my-account-dashboard-menu-active a {
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  color: var(--color-grey-600) !important;
+  background-color: var(--color-grey-100);
+}
+
+.my-account-dashboard-greeting {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--color-grey-600);
+}
+
+.my-account-dashboard-description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--color-grey-500);
+}
+
+/* icons start */
+.my-account-dashboard-icons {
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 18px;
+  row-gap: 25px;
+}
+
+.my-account-dashboard-icon {
+  width: 31%;
+  border: 1px solid var(--color-grey-400);
+  align-items: center;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.my-account-dashboard-icon > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: var(--color-grey-500);
+}
+/* ===== My Account - Dashboard Tab End ===== */
+
+/* ===== My Account - Order Tab Start ===== */
+.my-account-order-menu-active a {
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  color: var(--color-grey-600) !important;
+  background-color: var(--color-grey-100);
+}
+
+/* Right Side Form css start */
+.my-account-details {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.account-head-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.my-account-no-order-msg {
+  text-align: center;
+  padding: 50px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.my-account-order-go-shop-btn {
+  margin: auto;
+  display: block;
+}
+/* ===== My Account - Order Tab end ===== */
+
+/* ===== My Account - Download Tab Start ===== */
+.my-account-download-menu-active a {
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  color: var(--color-grey-600) !important;
+  background-color: var(--color-grey-100);
+}
+
+/* ===== My Account - shipping Tab Start ===== */
+.my-account-shipping-menu-active a {
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  color: var(--color-grey-600) !important;
+  background-color: var(--color-grey-100);
 }
