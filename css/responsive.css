@@ -240,9 +240,15 @@
     flex-wrap: wrap;
   }
 
-  .single-cart-item-quantity,
   .shopping-cart-head-price {
     display: none;
+  }
+
+  .product-quantity-wrap {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .shopping-cart-updatecart-btn {
@@ -292,5 +298,6 @@
     margin: auto;
     margin-top: 10px;
   }
+
   /* Footer end */
 }
