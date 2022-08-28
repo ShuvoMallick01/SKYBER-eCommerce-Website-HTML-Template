@@ -2,7 +2,7 @@
 
 Live Visit: https://shuvomallick01.github.io/eCommerce-Website/
 
-# Nector - Grocery App UI Design
+# RIOART - eCommerce Website Design
 
 ## Features
 
