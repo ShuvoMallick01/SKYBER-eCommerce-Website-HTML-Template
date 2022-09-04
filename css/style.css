@@ -170,6 +170,7 @@ Keywords: eCommerce, Template etc.
 .banner-content {
   max-height: 530px;
   height: 100%;
+  overflow: hidden;
 }
 
 .left-content {
@@ -369,6 +370,7 @@ Keywords: eCommerce, Template etc.
   flex-wrap: wrap;
   text-align: center;
   padding: 20px 10px;
+  cursor: pointer;
 }
 
 .support-icon {
@@ -726,6 +728,7 @@ span {
 .list-product {
   width: 100%;
   gap: 20px;
+  cursor: pointer;
 }
 
 .list-product-img {

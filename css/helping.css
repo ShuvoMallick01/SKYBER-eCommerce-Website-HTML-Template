@@ -210,7 +210,6 @@ input::placeholder {
 } */
 
 /* 2nd Secondary Btn animation */
-/* 
 .btn-secondary {
   background-color: var(--color-grey-100);
   color: var(--color-grey-800);
@@ -231,7 +230,7 @@ input::placeholder {
   bottom: 0;
   opacity: 0;
   content: "";
-  background-color: var(--color-grey-100);
+  background-color: var(--color-blue-500);
   border-radius: 3px;
 }
 
@@ -242,7 +241,7 @@ input::placeholder {
   opacity: 1;
   z-index: -1;
   border-radius: 3px;
-} */
+}
 
 /* Product Button */
 .btn-productpage {
@@ -324,5 +323,66 @@ ul li {
 .mt-10 {
   margin-top: 100px;
 }
-
 /* ===== Utilities Class End ===== */
+
+/* ===== Animation Utilities Start ===== */
+.animation-rotateY:hover {
+  transform: rotateY(180deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.animation-scale:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.1s ease-in-out;
+}
+
+.animation-rotate-10deg:hover {
+  transform: rotate(10deg);
+  transition: all 0.1s ease-in-out;
+}
+
+.single-product:hover,
+.browse-categorie:hover,
+.list-product:hover,
+.support:hover,
+.single-discount-product:hover,
+.wishlist-item:hover {
+  box-shadow: 0px 10px 50px 0px rgb(26 46 85 / 20%);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out 0.1s;
+}
+
+.product-img img:hover {
+  transform: rotateY(180deg);
+  transition: all 0.4s linear;
+}
+
+.browse-categorie-img img:hover,
+.single-latest-news-img img:hover,
+.list-product-img img:hover {
+  transition-delay: 0.1s;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.7s;
+  transition-property: all;
+  transform: scale(1.2) rotate(1deg);
+}
+
+.banner-content > img:hover {
+  /* -webkit-animation-name: float-bob-x;
+  animation-name: float-bob-x;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear; */
+  cursor: pointer;
+  transition-delay: 0.1s;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.7s;
+  transition-property: all;
+  transform: scale(1.1) rotate(1deg);
+}
+/* ===== Animation Utilities End ===== */
