@@ -1,16 +1,32 @@
-# eCommerce-Website
+# SKYBER - eCommerce Website HTML Template
 
-Live Visit: https://shuvomallick01.github.io/eCommerce-Website/
+Live Visit: https://shuvomallick01.github.io/SKYBER-eCommerce-Website-HTML-Template/
 
-# RIOART - eCommerce Website Design
+## Overview
+
+SKYBER – eCommerce Website HTML Template is a vast and complete HTML5, CSS eCommerce template. The eye-catching design and beautiful interface of this template will attract any visitor. You can deal with Ready Made Gadget eCommerce Website, and many more things.
+
+## Tools/Technologies
+
+- HTML/CSS
+- Bootstrap
+- Google Fonts
+- Font Icons
+- More
 
 ## Features
 
-1. Full responsive and modern Look
-2. Fully Feature Shopping Cart and Product Whishlist
-3. Fully Feature User Account
-4. Latest Blog
-5. Filtered Product Category Based
+- Full responsive and modern Look
+- Fully Feature Shopping Cart and Product Whishlist
+- Fully Feature User Account
+- Latest Blog
+- Filtered Product Category Based
+- Clean & Smooth Code
+- Creative and Modern Design
+- Fully Responsive
+- Easy to customize
+- Cross Browser Support
+- No console error
 
 ## Pages
 
