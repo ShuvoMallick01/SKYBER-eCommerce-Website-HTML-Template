@@ -135,33 +135,6 @@ input::placeholder {
   border-radius: 2px;
 }
 
-/* 1st Primary Button Style animation */
-/* .btn-primary {
-  color: var(--color-white);
-  background-color: var(--color-grey-900);
-  transition: all 300ms ease-in-out;
-}
-
-.btn-primary:hover {
-  color: var(--color-grey-800);
-  background-color: var(--color-blue-500);
-  transition: all 300ms ease-in-out;
-} */
-
-/* 2nd Primary Button Style animation */
-/* .btn-primary {
-  background-color: var(--color-grey-900);
-  color: var(--color-white);
-  box-shadow: inset 0 0 0 0 var(--color-blue-500);
-  transition: ease-out 0.3s;
-}
-
-.btn-primary:hover {
-  box-shadow: inset 300px 0 0 0 var(--color-blue-500);
-  cursor: pointer;
-  color: var(--color-white);
-} */
-
 /* 3rd Primary Button Style animation */
 .btn-primary {
   background-color: var(--color-grey-900);
@@ -195,19 +168,6 @@ input::placeholder {
   z-index: -1;
   border-radius: 3px;
 }
-
-/* 
-.btn-secondary {
-  color: var(--color-grey-700);
-  background-color: var(--color-grey-100);
-  transition: all 300ms ease-in-out;
-}
-
-.btn-secondary:hover {
-  color: var(--color-grey-800);
-  background-color: var(--color-blue-500);
-  transition: all 300ms ease-in-out;
-} */
 
 /* 2nd Secondary Btn animation */
 .btn-secondary {

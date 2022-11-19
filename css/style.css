@@ -93,7 +93,7 @@ Keywords: eCommerce, Template etc.
   flex-shrink: 0;
 }
 
-.header-mid > .logo > img {
+.header-mid .logo img {
   width: 100%;
 }
 
@@ -115,6 +115,7 @@ Keywords: eCommerce, Template etc.
   font-weight: 600;
   background-color: transparent;
   color: var(--color-grey-500);
+  padding: 0 !important;
 }
 
 .search-box button {
@@ -124,8 +125,13 @@ Keywords: eCommerce, Template etc.
   align-items: center;
   justify-content: center;
   background-color: transparent;
+  margin: 0px;
 }
 
+.search-box button img {
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
 .icon-buttons {
   gap: 25px;
   display: flex;
